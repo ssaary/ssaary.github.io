@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Caveat";
+    src: url("../fonts/Caveat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Shadows Into Light";
+    src: url("../fonts/ShadowsIntoLight-Regular.ttf") format("truetype");
+}
+
+.intro {
+    background-image: url("../images/IMG_2937.JPG");
+    background-size: cover;
+    background-position: center;
+    color:coral;
+    margin: 10 auto;
+    font-family: "Caveat", serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 200px;
+}
+
+.details {
+    font-size: 25px;
+}
+
+#my-name {
+    font-family: "Caveat";
+    font-size: 50px;
+    color:grey;
+    text-align: right;
+}
+
+.bold {
+    font-weight: 100;
+}
+
+.details {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Shadows Into Light", 'Times New Roman', serif;
+    border: 2px solid black;
+}
+
+p {
+    font-family: "Shadows Into Light", Georgia;
+}
+
+.addresses {
+    background-color: darkgray;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    color:darkred;
+    position: fixed;
+    z-index: 1;
+    border: 2px solid black;
+}
